@@ -1,6 +1,7 @@
 import re, csv
 from collections import Counter
 
+
 class FindDetails:
     def __init__(self, paragraph):
         self.paragraph = paragraph
