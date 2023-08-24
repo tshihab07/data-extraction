@@ -1,5 +1,3 @@
-""" extract names and phone numbers from an unorganized data and put them into organized file """
-
 import re, csv
 from collections import Counter
 
