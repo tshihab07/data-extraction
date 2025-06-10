@@ -6,8 +6,7 @@ class FindDetails:
     def __init__(self, paragraph):
         self.paragraph = paragraph
         self.names = re.compile(r"'([^']*)'")       # grab string that lies between single quotations
-        self.phones = re.compile(r"\d\d\d-\d\d\d-\d\d\d\d")
-        
+        self.phones = re.compile(r"\d\d\d-\d\d\d-\d\d\d\d")    # extract phone numbers
     
 
     def extract_names(self):
